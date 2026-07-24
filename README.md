@@ -1,2 +1,6 @@
-# python-sast-devsecops
-"Práctica de DevSecOps: Auditoría SAST con Bandit y remediación".
+# 🛡️ Mi Primer Proyecto DevSecOps
+
+Práctica de Análisis Estático de Código (SAST) y seguridad en Python.
+- Simulación de vulnerabilidades.
+- Remedios de código seguro.
+ 
