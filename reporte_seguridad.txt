@@ -1,0 +1,17 @@
+==================================================
+AUDITORÍA SAST CON BANDIT - REPORTE DE SEGURIDAD
+==================================================
+
+[RESULTADOS EN app.py]
+1. Issue: [B105:hardcoded_password_string]
+   Severidad: Medium | Confianza: High
+   Línea 4: Posible contraseña escrita en duro.
+
+2. Issue: [B605:start_process_with_a_shell]
+   Severidad: High | Confianza: High
+   Línea 8: Uso riesgoso de os.system (Inyección).
+
+--------------------------------------------------
+STATUS: VULNERABILIDADES DETECTADAS EN app.py
+STATUS: CORREGIDO EN app_segura.py
+==================================================
